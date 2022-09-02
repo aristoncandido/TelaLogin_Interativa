@@ -19,12 +19,11 @@ body{
 
 }
 .centro{
-
-
-
-
-  
-  
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -48,6 +47,10 @@ padding: 10vh;
   height: 60vh;
   border-radius: 5%;
   box-shadow: 13px 15px 15px rgba(0, 0, 0, 0.493);
+   
+  
+ 
+
 
 
 }
@@ -93,7 +96,7 @@ input#email{
 input :hover{
 
 
-    color: darkgreen;
+    color: rgb(2, 97, 2);
     
 
 
@@ -123,9 +126,27 @@ h1{
 
 .rodapé{
 
-   display: flex;
-   justify-content: center;
+
    margin: 20px;
    font-size: 15pt;
+
+}
+
+input#email{
+
+     color: grey;
+
+}
+
+
+#tela{
+
+
+  position: relative;
+  transition: 1s;
+  width: 50vh;
+  height: 60vh;
+
+
 
 }
